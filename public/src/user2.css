@@ -1,0 +1,21 @@
+.message.user2 {
+    background-color: lightgreen;
+    color: white;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .message.user2::before {
+    content: 'User 2';
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .message.user2::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
